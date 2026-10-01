@@ -127,8 +127,6 @@ ul {
     margin-bottom: 0.45rem;
 }
 
-
-
 .date {
     display: flex;
     justify-content: flex-end;
@@ -149,4 +147,57 @@ ul {
     font-weight: 500;
     font-size: 0.81rem;
     color: #018C0F;
+}
+
+/* technologies */
+
+.tech-under-title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666666;
+    font-style: normal;
+    margin-bottom: 1.75rem;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: flex;
+    margin: 1rem;
+    width: 92.59px;
+    height: 105px;
+}
+
+/* projects */
+
+.project-under-title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666666;
+    font-style: normal;
+    margin-bottom: 1.5rem;
+}
+
+.project {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.photo-project {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
 }
