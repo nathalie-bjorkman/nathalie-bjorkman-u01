@@ -1,0 +1,32 @@
+:root {
+    --titleh2-size: 2rem;
+    --back-color: #f6f6f6;
+    --body-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--back-color);
+}
+
+body {
+    background-color: var(--body-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 5%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+

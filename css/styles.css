@@ -1,0 +1,128 @@
+
+/* index.html */
+
+.header {
+    width: 100%;
+}
+
+.navbar-main {
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.logo-007 {
+    width: 77px;
+    height: auto;
+}
+
+.hamburger-menu {
+    width: 30px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.hamburger-menu img {
+    width: 100%;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.12rem;
+}
+
+.nav-links a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.nav-social-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5.5rem;
+    margin-top: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.introduction {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+   /*  color: #42446E; */
+}
+
+.color-name {
+    background: linear-gradient(to right, #13B0F5, #CA24B4);
+    color: transparent;
+    background-clip: text;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 25px;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to bottom, #E70FAA, #00C0FD) border-box;
+    margin-bottom: 4em;
+}
+
+/* about.html */
+
+.title {
+    font-weight: 700;
+    font-size: var(--titleh2-size);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-me-text {
+    font-weight: 400;
+    font-size: 0.80rem;
+    color: #15143966;
+}
+
+.under-title {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666666;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #666666;
+}
+
+.building {
+    margin-bottom: 0.25rem;
+}
