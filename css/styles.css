@@ -1,6 +1,21 @@
 
 /* index.html */
 
+.nav-text, 
+.nav-social-logos {
+    display: none;
+}
+
+.home-page .nav-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page .nav-social-logos {
+    display: flex;
+}
+
 .header {
     width: 100%;
 }
@@ -151,7 +166,7 @@ ul {
 
 /* technologies */
 
-.tech-under-title {
+.tech-description {
     font-weight: 400;
     font-size: 1rem;
     color: #666666;
@@ -163,7 +178,6 @@ ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
 }
 
 .logo {
@@ -276,17 +290,26 @@ ul {
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 1rem;
     letter-spacing: -1px;
+    
+}
+
+.contact-text {
+   margin-top: 0.5rem;
 }
 
 .or {
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .footer-text {
-    margin-top: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #A7A7A7;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
