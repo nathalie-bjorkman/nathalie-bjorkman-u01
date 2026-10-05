@@ -111,10 +111,24 @@ ul {
 
 /* about.html */
 
+
+.main {
+    width: 100%;
+    max-width: 400px;
+}
+
 .title {
     font-weight: 700;
     font-size: var(--titleh2-size);
     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    row-gap: 0.5rem;
+    column-gap: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -125,11 +139,39 @@ ul {
 }
 
 .under-title {
+    grid-column: 1;
     font-weight: 400;
     font-size: 1rem;
     color: #666666;
-    margin-top: 2rem;
-    margin-bottom: 0.8rem;
+}
+
+.employment-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 84px;
+    height: 24px;
+    background-color: #D7FFE0;
+    border-radius: 100px;
+
+    font-weight: 500;
+    font-size: 0.81rem;
+    color: #018C0F;
+
+    grid-column: 2;
+    justify-self: end;
+    align-self: end;
+}
+
+.work-description {
+    grid-column: 1;
+}
+
+.date {
+    grid-column: 2;
+    align-self: end;
+    white-space: nowrap;
 }
 
 .description {
@@ -139,32 +181,23 @@ ul {
 }
 
 .building {
-    margin-bottom: 0.45rem;
+    margin-bottom: 0.25rem;
 }
 
-.date {
-    display: flex;
-    justify-content: flex-end;
-    transform: translateY(-2.4rem);
+.work hr {
+    grid-column: 1 / -1;
+    width: 100%;
 }
 
-.employment-type {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #D7FFE0;
-    width: 84px;
-    height: 24px;
-    padding-top: 0.25rem;
-    padding-right: 0.814rem;
-    border-radius: 100px;
-    transform: translateY(-2.6rem);
-    margin-left: auto;
-    font-weight: 500;
-    font-size: 0.81rem;
-    color: #018C0F;
-}
+
 
 /* technologies */
+
+.technologies {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
 
 .tech-description {
     font-weight: 400;
@@ -175,16 +208,18 @@ ul {
 }
 
 .tech {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    flex-wrap: wrap;
+    justify-items: center;
+    gap: 2rem 1rem;
+    margin-top: 2rem;
 }
 
-.logo {
-    display: flex;
-    margin: 1rem;
-    width: 92.59px;
-    height: 105px;
+.tech img {
+    width: 60px;
+    max-height: 70px;
+    object-fit: contain;
 }
 
 /* projects */
