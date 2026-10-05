@@ -6,13 +6,17 @@
     display: none;
 }
 
+.nav-logo {
+    display: none;
+}
+
 .home-page .nav-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.home-page .nav-social-logos {
+.home-page .nav-social-logos .nav-logo {
     display: flex;
 }
 
@@ -111,6 +115,9 @@ ul {
 
 /* about.html */
 
+.header-about {
+    height: 8rem;
+}
 
 .main {
     width: 100%;
@@ -205,6 +212,10 @@ ul {
 
 /* technologies */
 
+.header-technologies {
+    height: 8rem;
+}
+
 .technologies {
     width: 100%;
     max-width: 400px;
@@ -235,6 +246,10 @@ ul {
 }
 
 /* projects */
+
+.header-projects {
+    height: 8rem;
+}
 
 .project-under-title {
     font-weight: 400;
@@ -329,6 +344,10 @@ ul {
 }
 
 /* Contact */
+
+.header-contact {
+    height: 12rem;
+}
 
 .contact {
     display: flex;
