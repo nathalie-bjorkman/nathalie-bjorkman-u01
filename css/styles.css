@@ -124,25 +124,29 @@ ul {
     margin-bottom: 2rem;
 }
 
+.about-me-text {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #15143966;
+}
+
+/* Work experience + education */
+
 .work {
     display: grid;
     grid-template-columns: 1fr auto;
-    row-gap: 0.5rem;
     column-gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-.about-me-text {
-    font-weight: 400;
-    font-size: 0.80rem;
-    color: #15143966;
+    row-gap: 0.25rem;
 }
 
 .under-title {
     grid-column: 1;
+    grid-row: 1;
+
     font-weight: 400;
     font-size: 1rem;
     color: #666666;
+    margin: 0;
 }
 
 .employment-type {
@@ -160,35 +164,43 @@ ul {
     color: #018C0F;
 
     grid-column: 2;
-    justify-self: end;
-    align-self: end;
-}
+    grid-row: 1;
 
-.work-description {
-    grid-column: 1;
-}
-
-.date {
-    grid-column: 2;
-    align-self: end;
-    white-space: nowrap;
+    margin: 0.25rem 0 0;
+    margin-left: auto;
 }
 
 .description {
     font-weight: 500;
     font-size: 0.75rem;
     color: #666666;
+    margin: 0;
 }
 
-.building {
-    margin-bottom: 0.25rem;
+.company {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.date {
+    grid-column: 2;
+    grid-row: 2;
+    white-space: nowrap;
+}
+
+.location {
+    grid-column: 1;
+    grid-row: 3;
 }
 
 .work hr {
     grid-column: 1 / -1;
     width: 100%;
-}
 
+    margin: 1rem 0;
+    border: 0;
+    border-top: 2px solid #EBEAED;
+}
 
 
 /* technologies */
