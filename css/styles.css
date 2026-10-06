@@ -384,3 +384,17 @@ ul {
     color: transparent;
     background-clip: text;
 }
+
+
+/* ====================================================
+    DESKTOP
+=======================================================*/
+
+@media (min-width: 900px){
+    .home-page .nav-text {
+        flex-direction: row;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+}
