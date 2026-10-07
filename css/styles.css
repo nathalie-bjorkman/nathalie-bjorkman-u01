@@ -49,7 +49,7 @@
 .nav-text {
     font-size: 1rem;
     color: #000000;
-    font-weight: ;
+    font-weight: 700;
 }
 
 .nav-links {
@@ -562,11 +562,22 @@ ul {
 
     /* projects */
 
-    
+    .project-title {
+        margin: 0 0 1rem;
+    }
 
-    
+    .project-under-title {
+        margin-bottom: 5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
 
-    
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3rem;
+        column-gap: 2rem;
+    }
 
 
 
