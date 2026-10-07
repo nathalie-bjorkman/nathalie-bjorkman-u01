@@ -1,5 +1,7 @@
 :root {
-    --titleh2-size: 2rem;
+
+    /* ändra på alla h2 som nu blir h1 på alla sidor förutom index.html */
+    /* --titleh2-size: 2rem; */
     --back-color: #f6f6f6;
     --body-color: #ffffff;
 }
