@@ -1,7 +1,7 @@
 # nathalie-bjorkman-u01
 
 Detta är min första portfolio, skapad som en del av
-frontendutbildningen på Chas Academy.
+Fullstackutbildningen med JavaScript på Chas Academy.
 
 ## Publicerad sida
 
