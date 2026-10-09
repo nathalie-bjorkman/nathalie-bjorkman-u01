@@ -151,8 +151,8 @@ ul {
 
 .about-me-text {
     font-weight: 400;
-    font-size: 0.8rem;
-    color: #15143966;
+    font-size: 1.125rem;
+    color: #666666;
 }
 
 /* Work experience + education */
@@ -179,13 +179,13 @@ ul {
     justify-content: center;
     align-items: center;
 
-    width: 84px;
-    height: 24px;
+    width: 90%;
+    height: 1.625rem;
     background-color: #D7FFE0;
     border-radius: 100px;
 
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     color: #018C0F;
 
     grid-column: 2;
@@ -409,7 +409,7 @@ ul {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 0.8rem;
-    color: #9d9898;
+    color: #5b5656;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -554,7 +554,7 @@ ul {
     }
 
     .employment-type {
-        font-size: 0.563rem;
+        width: 70%;
     }
 
     /* Technologies */
