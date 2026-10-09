@@ -390,10 +390,12 @@ ul {
 
 .contact-text {
    margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .mobile-text {
     display: inline;
+    font-size: 1.3rem;
 }
 
 .desktop-text {
@@ -402,7 +404,7 @@ ul {
 
 .or {
     font-weight: 200;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .footer-text {
