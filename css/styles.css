@@ -162,6 +162,8 @@ ul {
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 0.5rem;
     row-gap: 0.25rem;
+
+    width: 100%;
 }
 
 .under-title {
@@ -252,6 +254,7 @@ ul {
 }
 
 .tech-description {
+    width: 100%;
     font-weight: 400;
     font-size: 1rem;
     color: #666666;
@@ -268,7 +271,8 @@ ul {
 }
 
 .tech img {
-    width: 60px;
+    width: 100%;
+    max-width: 60px;
     max-height: 70px;
     object-fit: contain;
 }
